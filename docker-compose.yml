@@ -1,0 +1,6 @@
+services:
+  app:
+    build: . # Default
+    volumes:
+      - ./src:/app/src # ローカルのsrcをコンテナの/app/srcにマウント
+    working_dir: /app/src # デフォルトの作業ディレクトリ
