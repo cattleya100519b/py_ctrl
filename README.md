@@ -53,3 +53,6 @@
     - [ ] A.2 ラプラス変換
     - [ ] A.3 行列の固有値と固有ベクトル
     - [ ] A.4 非線形シミュレーション
+
+## Reference
+- [ラプラス変換微分則の収束証明 (3.3)](http://taruibunka.la.coocan.jp/buturi/apma1.pdf)
