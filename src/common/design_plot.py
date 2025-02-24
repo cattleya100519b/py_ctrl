@@ -30,7 +30,7 @@ def plot_set(fig_ax: Axes, *args: Tuple[str]):
         args[2] : str, optional
             凡例の位置
     """
-    if l:=len(args) == 2 or l == 3:
+    if (l:=len(args)) == 2 or l == 3:
         pass
     else:
         raise Exception('args length must be 2 or 3')
